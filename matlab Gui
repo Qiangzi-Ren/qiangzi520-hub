@@ -8,3 +8,32 @@ textString = get(handles.edit1,'String');
 textString = strcat(textString,'*');
 set(handles.edit1,'String',textString);
 guidata(hObject, handles);
+
+
+function pushbutton1_Callback(hObject, eventdata, handles)
+% hObject    handle to pushbutton1 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+textString = get(handles.edit1,'String');
+textString = strcat(textString,'1');
+set(handles.edit1,'String',textString);
+guidata(hObject, handles);
+function pushbutton13_Callback(hObject, eventdata, handles)
+% hObject    handle to pushbutton13 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+textString=get(handles.edit1,'String');
+as=char(textString);
+n=length(textString);
+textString=as(1:n-1);
+set(handles.edit1,'String',textString)
+guidata(hObject, handles);
+function pushbutton14_Callback(hObject, eventdata, handles)
+% hObject    handle to pushbutton14 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+textString = get(handles.edit1,'String');
+textString = get(handles.edit2,'String');
+set(handles.edit1,'String','');
+set(handles.edit2,'String','');
+guidata(hObject, handles);
