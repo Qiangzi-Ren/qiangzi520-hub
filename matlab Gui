@@ -1,0 +1,10 @@
+
+% --- Executes on button press in pushbutton17.
+function pushbutton17_Callback(hObject, eventdata, handles)
+% hObject    handle to pushbutton17 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+textString = get(handles.edit1,'String');
+textString = strcat(textString,'*');
+set(handles.edit1,'String',textString);
+guidata(hObject, handles);
