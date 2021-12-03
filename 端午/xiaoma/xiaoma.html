@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>端午</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    ul li{
+        width: 80px;
+        height: 100px;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        margin: 0 auto;
+
+    }
+
+    ul li div{
+        width: 80px;
+        height: 500px;
+        position: absolute;
+        top: 0;
+        transition: all 10s;
+    }
+
+    ul li span {
+        display: block;
+        text-align: center;
+        height: 100px;
+        cursor: pointer;
+    }
+    ul li div:hover{
+        top: -400px;
+    }
+</style>
+<body>
+<header>
+    <ul>
+        <li>
+            <div>
+                <span><img src="images/1.gif"width="100%"></span>
+                <span><img src="images/2.gif"width="100%"></span>
+                <span><img src="images/3.gif"width="100%"></span>
+                <span><img src="images/4.gif"width="100%"></span>
+                <span><img src="images/5.gif"width="100%"></span>
+
+            </div>
+
+        </li>
+    </ul>
+</header>
+</body>
+</html>
