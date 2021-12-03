@@ -1,5 +1,3 @@
-# Introduction
-https://mp.weixin.qq.com/s/KuktB_f1vxZCNIAHaaXdsQ
 
 # Environment(Tested)
 - Windows10
