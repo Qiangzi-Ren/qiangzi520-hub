@@ -11,6 +11,3 @@
 - pygame
 - random
 - sys
-
-# Game Display
-![giphy](effect/running.gif)
